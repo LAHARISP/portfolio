@@ -1,12 +1,17 @@
 import React from 'react';
+import "../styles.css";
 
-function Home() {
+function About() {
   return (
-    <section id="home" className="section">
-      <h1>Welcome to My Portfolio</h1>
-      <p>Scroll down to explore!</p>
+    <section id="about" className="about-section">
+      <div className="about-overlay">
+        <div className="about-content">
+          <h2 className="stylish-text">Lahari S P</h2>
+          <p className="subtitle">Web Developer & designer</p>
+        </div>
+      </div>
     </section>
   );
 }
 
-export default Home;
+export default About;

@@ -1,437 +1,416 @@
-
+/* Global styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-  }
-  
-  .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #333;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  .header ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .header li {
-    margin: 0 15px;
-  }
-  
-  .header a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-  }
-  
-  .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: white;
-    color: black;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  .header ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .header li {
-    margin: 0 15px;
-  }
-  
-  .header a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-  }
-  
-  .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: white;
-    color: black;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  .header ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .header li {
-    margin: 0 15px;
-  }
-  
-  .header a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-  .about-section {
-    background: url('C:\Users\LAHARI\Desktop\react\my-app\src\assets\bg.jpg') no-repeat center center/cover;
-    position: relative;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding-left: 50px;
-  }
-  
-  .about-overlay {
-    background: rgba(255, 255, 255, 0.7);
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .about-content {
-    color: black;
-  }
-  
-
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-  }
-  
-  .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: white;
-    color: black;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  .header ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .header li {
-    margin: 0 15px;
-  }
-  
-  .header a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
  
-  
-  .about-overlay {
-    background: rgba(255, 255, 255, 0.7);
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .about-content {
-    color: black;
-  }
-  
-  .portfolio-section {
-    background: url('C:\Users\LAHARI\Desktop\react\my-app\src\assets\bg1.jpg') no-repeat center center/cover;
-    position: relative;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-  }
-  
-  .portfolio-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    max-width: 800px;
-    width: 100%;
-  }
-  
-  .portfolio-item {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-  }
-  
-  .portfolio-link {
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-  }
-  
-  .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: white;
-    color: black;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  .header ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .header li {
-    margin: 0 15px;
-  }
-  
-  .header a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .footer {
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  .footer a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-  }
-  
-  .footer a:hover {
-    text-decoration: underline;
-  }
-  
-
-  .footer img {
-    width: 30px;  /* Adjust the size as needed */
-    height: 30px;
-    margin: 0 10px;  /* Spacing between icons */
-  }
-  
-
- /* Add background image to the entire portfolio section */
-.portfolio-section {
-  padding: 50px 0;
-  text-align: center;
-  background-image: url('C:\Users\LAHARI\Desktop\react\my-app\src\assets\bg1.jpg'); /* Replace with your image URL or path */
-  background-size: cover; /* Makes the image cover the entire section */
-  background-position: center center; /* Centers the image */
-  background-attachment: fixed; /* Keeps the image fixed during scrolling */
-  color: #fff; /* Makes text white for better contrast with background */
+  scroll-behavior: smooth;
 }
 
-/* Container for portfolio items using grid */
-.portfolio-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 items per row */
-  gap: 20px; /* Space between items */
-  max-width: 1200px; /* Set a max width for the container */
-  margin: 0 auto; /* Center the grid */
+html {
+  scroll-padding-top: 70px; /* Adjust according to your header's height */
+}
+html, body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+/* Header Styles */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7); /* Translucent white */
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  text-align: center;
+  z-index: 1000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header li {
+  margin: 0 15px;
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.header a:hover {
+  color: #ff6600;
+}
+
+/* Section Styles */
+section {
+  padding: 50px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#about { background-color: lightblue; }
+#home { background-color: lightgreen; }
+#education { background-color: lightgoldenrodyellow; }
+#contact { background-color: lightpink; }
+
+/* Full-screen sections */
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* About Section Styles */
+.about-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url('./assets/bg1.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6); /* Translucent white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  text-align: center;
+  z-index: 2;
+}
+
+.stylish-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ff6600;
+  letter-spacing: 1px;
+  font-family: "papyrus", fantasy;
+}
+
+/* Education Section Styles */
+.education-section {
+  background-image: url('./assets/bg3.png');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  color: white;
+  text-align: center;
+}
+
+.education-container {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  gap: 20px;
+}
+
+.education-item {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out;
 }
 
-/* Each portfolio item */
+.education-item:hover {
+  transform: scale(1.05);
+}
+
+.education-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.education-section h3 {
+  color: #ffcc00;
+}
+
+.education-section p {
+  font-size: 1.1em;
+}
+
+/* Portfolio Section Styles */
+.portfolio-section {
+  background: url('./assets/bg1.jpg') no-repeat center center/cover;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+  gap: 20px;
+  max-width: 800px;
+  width: 100%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
 .portfolio-item {
+  background: rgba(255, 255, 255, 0.6);
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for contrast */
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-decoration-color: black;
   text-align: center;
   transition: transform 0.3s ease-in-out;
 }
 
 .portfolio-item:hover {
-  transform: translateY(-10px); /* Moves the portfolio item up */
+  transform: translateY(-10px);
 }
 
-/* Moves the entire container slightly to the right when hovering over any item */
 .portfolio-container:hover {
   transform: translateX(10px);
 }
 
-/* Link styles */
 .portfolio-link {
-  display: inline-block;
-  font-size: 1.2rem;
-  color: #007BFF;
-  text-decoration: none;
-  margin-bottom: 10px;
   font-weight: bold;
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .portfolio-link:hover {
   text-decoration: underline;
 }
 
-/* Portfolio item description */
-.portfolio-item p {
-  font-size: 1rem;
-  color: #333;
-}
-
-/* For smaller screens */
-@media (max-width: 768px) {
-  .portfolio-container {
-    grid-template-columns: 1fr; /* 1 item per row */
-  }
-}
-
-
-
-/* Add background image to the entire accomplishments section */
-.accomplishments-section {
-  padding: 50px 0;
+/* Home Section Styles */
+.home-section {
+  background: url('./assets/bg3.png') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  background-image: url('C:\Users\LAHARI\Desktop\react\my-app\src\assets\bg3.png'); /* Replace with your image URL or path */
-  background-size: cover; /* Makes the image cover the entire section */
-  background-position: center center; /* Centers the image */
-  background-attachment: fixed; /* Keeps the image fixed during scrolling */
-  color: #fff; /* Makes text white for better contrast with background */
-}
-
-/* Container for accomplishments items using grid */
-.accomplishments-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 items per row */
-  gap: 20px; /* Space between items */
-  max-width: 1200px; /* Set a max width for the container */
-  margin: 0 auto; /* Center the grid */
-  transition: transform 0.3s ease-in-out;
-}
-
-/* Each accomplishment item */
-.accomplishment-item {
+  color: white;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for contrast */
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  transition: transform 0.3s ease-in-out;
 }
 
-.accomplishment-item:hover {
-  transform: translateY(-10px); /* Moves the accomplishment item up */
+.home-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 1000px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Moves the entire container slightly to the right when hovering over any item */
-.accomplishments-container:hover {
-  transform: translateX(10px);
-}
-
-/* Link styles */
-.accomplishment-link {
-  display: inline-block;
-  font-size: 1.2rem;
-  color: #007BFF;
-  text-decoration: none;
+h1 {
+  font-size: 2.5rem;
   margin-bottom: 10px;
-  font-weight: bold;
 }
 
-.accomplishment-link:hover {
+.intro {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.summary, .skills {
+  text-align: left;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #f4a261;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-top: 15px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.skills-box {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.skills ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.skills li {
+  margin: 5px 0;
+  border-radius: 8px;
+}
+
+/* Footer Styles */
+.footer {
+  background: rgba(34, 34, 34, 0.8);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-family: monospace;
+}
+
+.footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
   text-decoration: underline;
 }
 
-/* Accomplishment item description */
-.accomplishment-item p {
-  font-size: 1rem;
-  color: #333;
+.footer img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
 }
 
-/* For smaller screens */
-@media (max-width: 768px) {
-  .accomplishments-container {
-    grid-template-columns: 1fr; /* 1 item per row */
+.footer p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+/* Responsive Styles for Devices */
+
+/* Medium Screens (Tablets, small desktops) */
+@media (max-width: 1024px) {
+  .home-container {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .intro {
+    font-size: 1rem;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .skills-box {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
   }
 }
 
+/* Small Screens (Phones) */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .portfolio-container {
+    grid-template-columns: 1fr;
+  }
+
+  .education-item {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
+
+/* Very Small Screens (Small Phones) */
+@media (max-width: 480px) {
+  .home-section {
+    padding: 5px;
+  }
+
+  .home-container {
+    padding: 10px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .intro {
+    font-size: 0.8rem;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .skills-box {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .skills ul {
+    padding-left: 15px;
+  }
+}
